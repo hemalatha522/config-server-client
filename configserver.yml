@@ -1,1 +1,6 @@
-msg = hi!
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://Eureka-Server1:8760/eureka
